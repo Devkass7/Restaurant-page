@@ -1,4 +1,6 @@
 
+
+
  function menu(){
     const menu = document.getElementById("container");
     menu.innerHTML =""
@@ -10,6 +12,6 @@
     menu.appendChild(menuItems)
 }
 
-const menuItems = menu;
+const items = menu;
 
-export default menuItems();
+export default items;
