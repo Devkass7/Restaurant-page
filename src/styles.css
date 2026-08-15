@@ -1,0 +1,86 @@
+body{
+    background-color: #66cdab26;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: slateblue;
+    padding: 20px;  
+    box-shadow: 10px 2px 9px #9c9c9c;
+
+  
+
+    
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+   
+
+    div{
+        display: flex;
+        gap: 20px;
+    } 
+    
+    button{
+        border: none;
+        border-radius:5px;
+        padding: 5px 15px; 
+        cursor: pointer;
+    }
+
+
+
+}
+
+#container{
+    /* background-image: url("images/restaurant\ bg.jpg");
+    background-size: cover;
+    height: 100vh;
+    opacity: 0.3;
+    margin-top: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    text-align: justify;
+
+    h1{
+        font-weight: bolder;
+        font-size: 4rem;
+        color: #420303;
+    }
+
+    p{
+        font-size: 1.1rem;
+    }
+
+    #home-cta{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        
+
+        button{
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+            font-weight: bolder;
+            
+
+            &:hover{
+                background-color: rgba(255, 192, 203, 0.223);
+                color: rgb(255, 0, 13);
+            }
+        }
+        
+    }
+}
