@@ -29,7 +29,7 @@ nav{
     button{
         border: none;
         border-radius:5px;
-        padding: 5px 15px; 
+        padding: 10px 25px; 
         cursor: pointer;
     }
 
@@ -151,7 +151,7 @@ section{
     background-color: slateblue;
     color: white;
     
-    margin-top: 157px;
+    margin-top: 172px;
 
 }
 
@@ -198,7 +198,8 @@ form{
     align-items: center;
 }
 
-headlogo{
-    width: 20px;
-    height: 20px;
+.headlogo{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
 }

@@ -1,7 +1,6 @@
 
 document.getElementById("contact").addEventListener("click", () => {
-    document.getElementById("container").innerHTML = ""
-
+    document.querySelector(".hero").innerHTML = ""
     document.getElementById("container").innerHTML = `
         <div class="contact">
     <form action="#">

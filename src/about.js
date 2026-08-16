@@ -2,6 +2,8 @@ import logo from "./images/logo.png"
 
 const about =  document.getElementById("about") 
 function aboutUs(){
+    document.querySelector(".hero").innerHTML = ""
+
    document.getElementById("container").innerHTML = `
     <section class="about-chop-chill">
     <img class="about-logo" src ="${logo}" alt = "logo" />

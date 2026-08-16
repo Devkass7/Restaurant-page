@@ -11,6 +11,11 @@ document.getElementById("menu").addEventListener("click", () => {
     items()   
 })
 
+    document.querySelector(".headlogo").addEventListener("click", () => {
+        window.location.reload(true)
+    })
+
+
 
 const year = new Date().getFullYear()
 
