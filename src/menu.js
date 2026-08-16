@@ -11,10 +11,10 @@ import pizza from "./images/pizza.jpg"
 
     const menuItems = document.createElement("div")
 
+    document.querySelector(".hero").innerHTML = "<h1>Your Meal is Just a <span>Click</span> away</h1>"
+
       
-    menuItems.innerHTML = `<div>
-    <h1>Your Meal is Just a <span>Click</span> away</h1>
-</div>
+    menuItems.innerHTML = `<main>
 <fieldset>
     <legend>
         <img class="logo" src="${logo}" alt="logo" />
@@ -44,10 +44,10 @@ import pizza from "./images/pizza.jpg"
 <fieldset>
     <legend><img class="logo" src="${logo}" alt="logo" /></legend>
     <div>
-        <h3>Amazing</h3>
+        <h3>Amazing Pizza</h3>
         <img class="food-image" src="${pizza}" alt="" /><button class="cta-button">Place Order</button>
     </div>
-</fieldset>
+</fieldset></main>
 `
 
    // menuItems.innerHTML = `<img scr='${logo}' >`

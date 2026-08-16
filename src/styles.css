@@ -37,6 +37,23 @@ nav{
 
 }
 
+
+        .cta-button{
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+            font-weight: bolder;
+            
+
+            &:hover{
+                background-color: rgba(255, 192, 203, 0.223);
+                color: rgb(255, 0, 13);
+            }
+        }
+
 #container{
     /* background-image: url("images/restaurant\ bg.jpg");
     background-size: cover;
@@ -66,21 +83,82 @@ nav{
         gap: 20px;
         
 
-        button{
-            background-color: green;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 15px;
-            cursor: pointer;
-            font-weight: bolder;
-            
-
-            &:hover{
-                background-color: rgba(255, 192, 203, 0.223);
-                color: rgb(255, 0, 13);
-            }
-        }
         
     }
+}
+
+fieldset{
+    border-radius: 15px;
+    border: none;
+    box-shadow: 2px 4px 9px #9c9c9c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    &:hover{
+        scale: 1.1;
+    }
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    .food-image{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+
+    button{
+       margin-top: 10px;
+    }
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    border: 2px solid gray;
+    border-radius: 50%;
+   
+}
+.hero{
+    text-align: center;
+    margin-top: 50px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: slateblue;
+    color: white;
+    
+    margin-top: 157px;
+
+}
+
+.about-logo{
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+    margin-top: -50px;
 }
